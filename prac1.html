@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .in {
+            width: 100px;
+            margin-right: 5px;
+        }
+
+        .remove {
+            border: 1px solid black;
+            border-radius: 50%;
+
+            width: 18px;
+            height: 18px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-sizing: border-box;
+            padding-bottom: 4px;
+
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="number" class="in">
+        </div>
+    </div>
+    
+    <button id="add">추가</button>
+    <button id="calc">계산</button>
+
+    <script src="/03_JS/js/prac1.js"></script>
+</body>
+</html>
